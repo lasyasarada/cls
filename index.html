@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lasya Sarada - Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+</head>
+ 
+<!------------- Navigation Bar ---------->
+
+<div id="header">
+        <div class="container">
+            <nav class="navbar">
+                <h1 style = "font-family: 'Great Vibes', cursive; position: fixed; left: 10%;color: #e86bdd;top:10px;">Lasya Sarada</h1>
+                <ul id="sidemenu">
+					<li><a href="#header">Home</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#my-art">My Art</a></li>
+					<li><a href="#blogs">Blogs</a></li>
+					<li><a href="CLasyaSarada_Resume.pdf" target="_blank">Resume</a></li>
+					<li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closeMenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h1>Hi, I'm <span>Lasya</span> <br>Sarada</h1>
+                <span id="element"></span>
+            </div>
+        </div>
+    </div>
+
+<!------------- About ---------->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+		    <h1 class="sub-title">About Me</h1>
+                    <img src="pic2.jpg" alt="">
+                </div>
+                               <div class="about-col-2">
+                    
+                    <p style="margin-top: 10px;">
+                        Hi, I'm Lasya — a passionate Software Engineer currently working at Telstra, with 4 years of experience in the IT industry. I started my career at Tata Consultancy Services (TCS), where I spent over 3.5 years as a BMC Remedy Developer and Administrator. My core expertise is in configuring and optimizing ITSM applications like Incident, Change, Problem, Release, and Work Order Management. I've developed and customized workflows, approval mappings, and SLAs to meet business needs. I'm also skilled in using Data Management Tools (DMT) and handling system integrations efficiently. Enhancing user experience through customized forms and views in Remedy has been a key part of my work. I’ve been recognized with awards like “Star of the Month” and “On the Spot Award” for my dedication and performance. I’m known for being analytical, quality-focused, and always eager to learn and grow.
+<br><br>
+Outside of work, I love drawing, watching movies, writing blogs on Instagram, and exploring spirituality. I live by the motto: “Live and let live,” and believe in the power of continuous learning — “Learn, unlearn, and relearn.” I strive to live a conscious and inspired life every day.
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Programming Language</span>
+                                <p>
+                                    C, C++, Java, Python
+                                </p>
+                            </li>
+                            <li><span>Web Languages</span>
+                                <p>
+                                    HTML, CSS, Javascript
+                                </p>
+                            </li>
+                            <li><span>Backend</span>
+                                <p>
+                                    MySQL, Restful APIs
+                                </p>
+                            </li>
+                            <li><span>ITSM Configuration</span>
+                                <p>
+                                    BMC Remedy ITSM, Incident Management, Change Management, Problem Management, Work Order Management, Release Management, Helix SmartIT
+                                </p>
+                            </li>
+                            <li><span>Development Tools</span>
+                                <p>
+                                    Postman, BMC Remedy Developer Studio, AR Import Tool, Spoon Tool, BMC Truesight Orchestration (TSO)
+                                </p>
+                            </li>
+                            <li><span>Other</span>
+                                <p>
+                                    Helix Dashboards, Smart Reporting, ITIL Framework, Agile Methodologies, Time Management, Teamwork
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+
+                            <li>
+                                <span>
+                                    BMC Remedy Developer and Administrator at Tata Consultancy Services, Hyderabad
+                                </span>
+                                <br> August 2021 - January 2025
+                            </li>
+                            <p>
+                                &bull; Implemented and optimized configurations for ITSM applications including Incident Management, Change Management, Problem Management, Release Management, and Work Order Management.
+
+<br>&bull; Troubleshot and resolved platform performance issues, workflow errors, and user access problems in Production BMC Helix ITSM 21.x.
+
+<br>&bull; Developed and customized approval mappings and workflows for Change Management and Service Requests, aligning them with specific business needs.
+
+<br>&bull; Configured incoming and outgoing mailboxes to support automated service notifications.
+
+<br>&bull; Utilized Data Management Tools (DMT) and Data Import tools for efficient data loading, reducing manual effort and time by approximately 60%.
+
+<br>&bull; Proposed and designed automated workflows to minimize manual intervention, significantly lowering client-side operational efforts.
+
+<br>&bull; Queried and scheduled dashboards using PostgreSQL, delivering real-time insights and improving decision-making efficiency—manual efforts reduced from 100% to 10%.
+
+<br>&bull; Leveraged BMC Helix Dashboards and Analytics to monitor system performance, ticket resolution metrics, and trends. Created custom reports for both management and operational use.
+
+<br>&bull; Continuously monitored SLA compliance and KPIs, providing regular reporting for performance optimization.
+
+<br>&bull; Customized Progressive Web App (PWA) views in Helix SmartIT for Incident, Change, Release, and Work Order Management, enhancing user interface and workflow efficiency.
+
+<br>&bull; Developed and tailored Spoon Jobs to ensure 100% synchronization of Active Directory (AD) data with BMC Helix systems.
+                            </p>
+                            <p>
+                               <br>Skills: ITIL, BMC Remedy ITSM, SmartIT, Helix Dashboards, BMC Remedy Developer Studio, BMC Remedy Spoon Tool, BMC Remedy Import Tool
+                            </p>
+
+                            <li>
+                                <span>
+                                    Software Engineer at Telstra, Bangalore
+                                </span>
+                                <br> February 2025 - Present
+                            </li>
+                            <p>
+                                &bull; Configured fields to SmartIT PWA views, Worked on the requirement of Spares and Repair Task Management process.
+                            </p>
+                            <p>
+                               <br>Skills: Agile Methodologies, Jira, ITIL, BMC Remedy ITSM, SmartIT, Helix Dashboards, CMDB, BMC Remedy Developer Studio, BMC Remedy Spoon Tool, BMC Remedy Import Tool
+                            </p>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li>
+                                <span>Bachelors of Technology (Information Technology)</span>
+                                <p>
+                                    &bull; PVP Siddhartha Insitute of Technology 2017 - 21
+				  <br>  &bull; Percentage: 90
+                                    <br>
+                                </p>
+                            </li>
+                            <li>
+                                <span>Intermediate (Maths, Physics, Chemistry)</span>
+                                <p>
+                                    &bull; Sri Chaitanya Jr. College 2015 - 17
+				  <br>  &bull; Percentage: 96.9
+                                </p>
+                            </li>
+                            <li>
+                                <span>SSC</span>
+                                <p>
+                                    &bull; NRI's Indian Springs 2014 - 15
+				  <br>  &bull; Percentage: 89
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+  <section id="my-art" class="portfolio">
+    <h2>My Art</h2>
+    <div class="filter-buttons">
+      <button onclick="filterSelection('fashion', this)">Fashion Sketches</button>
+      <button onclick="filterSelection('sad', this)">Sad</button>
+      <button onclick="filterSelection('sacred', this)">Sacred</button>
+      <button onclick="filterSelection('friendship', this)">Friendship</button>
+      <button onclick="filterSelection('love', this)">Love</button>
+      <button onclick="filterSelection('nature', this)">Nature</button>
+      <button onclick="filterSelection('all', this)">All</button>
+    </div>
+    <div class="grid" id="artGrid">
+      <!-- Fashion -->
+      <div class="card fashion"><img src="drawing1.png"/></div>
+      <div class="card fashion"><img src="drawing5.png"/></div>
+      <div class="card fashion"><img src="drawing6.png"/></div>
+      <div class="card fashion"><img src="drawing10.png"/></div>
+      <div class="card fashion"><img src="drawing14.png"/></div>
+      <div class="card fashion"><img src="drawing16.png"/></div>
+      <div class="card fashion"><img src="drawing20.png"/></div>
+      <div class="card fashion"><img src="drawing22.png"/></div>
+      <div class="card fashion"><img src="drawing23.png"/></div>
+      
+      <!-- Sad -->
+      <div class="card sad"><img src="drawing15.png"/></div>
+
+      <!-- Sacred -->
+      <div class="card sacred"><img src="drawing7.png"/></div>
+      <div class="card sacred"><img src="drawing8.png"/></div>
+      <div class="card sacred"><img src="drawing11.png"/></div>
+      <div class="card sacred"><img src="drawing21.png"/></div>
+
+      <!-- Friendship -->
+      <div class="card friendship"><img src="drawing12.png"/></div>
+
+      <!-- Love -->
+      <div class="card love"><img src="drawing2.png"/></div>
+      <div class="card love"><img src="drawing3.png"/></div>
+      <div class="card love"><img src="drawing4.png"/></div>
+      <div class="card love"><img src="drawing9.png"/></div>
+      <div class="card love"><img src="drawing13.png"/></div>
+      <div class="card love"><img src="drawing18.png"/></div>
+      <div class="card love"><img src="drawing19.png"/></div>
+
+      <!-- Nature -->
+      <div class="card nature"><img src="drawing17.png"/></div>
+      <div class="card nature"><img src="drawing24.png"/></div>
+    </div>
+  </section>
+
+<!------------- Blogs ---------->
+
+<section id="blogs" class="blogs">
+  <h2>My Blogs</h2>
+  <div class="blog-container">
+    <div class="blog-card">
+      <img src="blog1.jpeg" alt="Blog 1">
+      <h3>3 Years Journey in TCS</h3>
+      <p>A personal reflection on journey of 3 years in TCS.</p>
+      <a href="https://www.linkedin.com/posts/chitluri-lasya-sarada_tcs-youareaninspiration-consistant-activity-7226246684748472322-bAuC?utm_source=share&utm_medium=member_desktop&rcm=ACoAADJCwWIBgZki8JKdVKB7mimr1ZG7QLTxsas" target="_blank">Read More</a>
+    </div>
+    <div class="blog-card">
+      <img src="blog2.jpeg" alt="Blog 2">
+      <h3>అమ్మ</h3>
+      <p>అమ్మ (Pronounced as AMMA), is the first word we utter.</p>
+      <a href="https://www.linkedin.com/posts/chitluri-lasya-sarada_amma-mothersday-grateful-activity-7194949882388910082-xHn9?utm_source=share&utm_medium=member_desktop&rcm=ACoAADJCwWIBgZki8JKdVKB7mimr1ZG7QLTxsas" target="_blank">Read More</a>
+    </div>
+    <div class="blog-card">
+      <img src="blog3.jpeg" alt="Blog 3">
+      <h3>Challenges that people face every day</h3>
+      <p>Thoughts on the power of unlearning in today’s fast-changing world and the importance of adaptability.</p>
+      <a href="https://www.linkedin.com/posts/chitluri-lasya-sarada_noselfdoubtonlyselflove-beawareofyourself-activity-7192796592268058624-to2d?utm_source=share&utm_medium=member_desktop&rcm=ACoAADJCwWIBgZki8JKdVKB7mimr1ZG7QLTxsas" target="_blank">Read More</a>
+    </div>
+    <div class="blog-card">
+      <img src="blog4.jpeg" alt="Blog 3">
+      <h3>10K Run</h3>
+      <p>Today marks my first ever run and that too 10k run.</p>
+      <a href="https://www.linkedin.com/posts/chitluri-lasya-sarada_tcsfit4life-10km-selfmotivated-activity-7164949471196295168-vdm4?utm_source=share&utm_medium=member_desktop&rcm=ACoAADJCwWIBgZki8JKdVKB7mimr1ZG7QLTxsas" target="_blank">Read More</a>
+    </div>
+
+  </div>
+</section>
+
+<!------------- Contact ---------->
+
+<section id="contact" class="contact">
+  <h2>Contact Me</h2>
+  <div class="contact-links">
+    <a href="https://www.linkedin.com/in/chitluri-lasya-sarada/" target="_blank" class="contact-icon linkedin">
+      <i class="fab fa-linkedin"></i> LinkedIn
+    </a>
+    <a href="https://github.com/lasyasarada" target="_blank" class="contact-icon github">
+      <i class="fab fa-github"></i> GitHub
+    </a>
+    <a href="mailto:lschitluri@gmail.com" class="contact-icon email">
+      <i class="fas fa-envelope"></i> Email
+    </a>
+  </div>
+</section>
+  <footer>
+    <p>&copy; 2025 Lasya Sarada. All rights reserved.</p>
+  </footer>
+
+<!------------- Scripts ---------->
+
+  <script>
+         // About Me tab
+        let tablinks = document.getElementsByClassName("tab-links");
+        let tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link")
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+	// Hamburger (sidemenu)
+        const sidemenu = document.getElementById("sidemenu");
+
+        function openMenu() {
+            sidemenu.style.right = '0'
+        }
+
+        function closeMenu() {
+            sidemenu.style.right = '-200vw'
+        }
+
+
+        //typewriter word animation
+        const typed = new Typed('#element', {
+            strings: [
+                'a Software Engineer.',
+                'an Artist.',
+		'a Creative thinker.',
+		'a Web Designer',
+                'based in Vijayawada, India',
+            ],
+            typeSpeed: 50,
+            backSpeed: 20,
+            loop: true,
+            loopCount: Infinity,
+            showCursor: true,
+            cursorChar: '|',
+            startDelay: 500,
+            backDelay: 1000
+        });
+    //All section in My Art
+    function filterSelection(emotion, button = null) {
+      let cards = document.querySelectorAll('.grid .card');
+      cards.forEach(card => {
+        card.style.display = (emotion === 'all' || card.classList.contains(emotion)) ? 'block' : 'none';
+      });
+
+      if (emotion === 'all') {
+        cards.forEach((card, index) => {
+          card.style.display = index < 30 ? 'block' : 'none';
+        });
+      }
+
+      let buttons = document.querySelectorAll('.filter-buttons button');
+      buttons.forEach(btn => btn.classList.remove('active'));
+      if (button) button.classList.add('active');
+    }
+
+    window.onload = () => {
+      let fashionBtn = document.querySelector('.filter-buttons button:nth-child(2)');
+      filterSelection('fashion', fashionBtn);
+    };
+
+  </script>
+</body>
+
+</html>
